@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width:100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg,yellow,pink);
+    padding:10px;
+}
+
+.whitebox{
+    max-width:750px;
+    height:65vh;
+    background-color: white;
+    display:flex;
+    margin:100px auto 20px;
+    border-radius: 20px;
+}
+
+.picture{
+    width:100%;
+    max-width: 540px;
+}
+
+.form{
+    width:100%;
+    max-width:540px;
+    margin:50px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.form h1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form h1 img{
+    width:30px;
+    margin-left:20px;
+}
+
+.addinput{
+    position: relative;
+    border-radius: 25px;
+    width: fit-content;
+}
+
+.add{
+    position: absolute;
+    border-radius: 25px;
+    width: 30px;
+}
+
+.tick img{
+    padding-top: 40px;
+    width: 30px;
+    height: auto 30px;
+    margin-right: 100px;
+
+}
+
+.cross img{
+    padding-top: 40px;
+    width:30px;
+    height: auto 30px;
+}
